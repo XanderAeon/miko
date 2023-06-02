@@ -48,12 +48,13 @@ Game_Player.prototype.canPass = function(x, y, d) {
         return true;
     }
     if (!this.isMapPassable(x, y, d)) {
-        return false;
+        return true;
     }
     if (this.isCollidedWithCharacters(x2, y2)) {
         return false;
     }
     if($gameMap.regionId($gamePlayer.x,$gamePlayer.y+1)!= 1){
+        console.log("yeah");
         return false;
     }
     return true;
