@@ -55,8 +55,52 @@ Game_Player.prototype.canPass = function(x, y, d) {
         return false;
     }
     if($gameMap.regionId($gamePlayer.x,$gamePlayer.y+1)!= 1){
-        console.log("yeah");
         return false;
     }
     return true;
 };
+
+Game_Player.prototype.executeMove = function(direction) {
+    if(direction == 2 || direction == 8){ //if trying to move up or down... (if we want to move up/down do a jump instead using the jump/dash button)
+        return;
+    }
+    this.moveStraight(direction);
+};
+
+//this is the dash section
+
+Game_CharacterBase.prototype.realMoveSpeed = function() {
+    return this._moveSpeed;
+};
+
+Game_Player.prototype.moveByInput = function() {
+    if (!this.isMoving() && this.canMove()) {
+        if(this.isDashing()){
+            var direction = this.getInputDirection();
+            this.doJumpDash(direction);
+        }
+        else{
+            var direction = this.getInputDirection();
+            if (direction > 0) {
+                $gameTemp.clearDestination();
+            } else if ($gameTemp.isDestinationValid()){
+                var x = $gameTemp.destinationX();
+                var y = $gameTemp.destinationY();
+                direction = this.findDirectionTo(x, y);
+            }
+            if (direction > 0) {
+                this.executeMove(direction);
+            }
+        }
+    }
+};
+
+//^ 8 > 6 < 4 V 2
+Game_Player.prototype.doJumpDash = function(direction){
+    if(direction == 6){
+        this.jump(2,0);
+    }
+    if(direction == 4){
+        this.jump(-2,0)
+    }
+}
