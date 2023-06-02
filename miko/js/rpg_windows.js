@@ -2591,14 +2591,30 @@ Window_Status.prototype.drawBasicInfo = function(x, y) {
 
 Window_Status.prototype.drawParameters = function(x, y) {
     var lineHeight = this.lineHeight();
-    for (var i = 0; i < 6; i++) {
+    var y2, paramId;
+    /*for (var i = 0; i < 6; i++) {
         var paramId = i + 2;
         var y2 = y + lineHeight * i;
         this.changeTextColor(this.systemColor());
         this.drawText(TextManager.param(paramId), x, y2, 160);
         this.resetTextColor();
         this.drawText(this._actor.param(paramId), x + 160, y2, 60, 'right');
-    }
+    }*/
+    paramId = 0+2;
+    y2 = y + lineHeight * 0;
+    this.drawText(TextManager.param(paramId), x, y2, 160);
+
+    paramId = 1+2;
+    y2 = y + lineHeight * 1;
+    this.drawText(TextManager.param(paramId), x, y2, 160);
+
+    paramId = 4+2;
+    y2 = y + lineHeight * 2;
+    this.drawText(TextManager.param(paramId), x, y2, 160);
+
+    /*paramId = i+2;
+    y2 = y + lineHeight * i;
+    this.drawText(TextManager.param(paramId), x, y2, 160);*/
 };
 
 Window_Status.prototype.drawExpInfo = function(x, y) {
