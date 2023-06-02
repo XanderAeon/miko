@@ -48,7 +48,8 @@ Game_Player.prototype.canPass = function(x, y, d) {
         return true;
     }
     if (!this.isMapPassable(x, y, d)) {
-        return true;
+        //return false;
+        //return true;
     }
     if (this.isCollidedWithCharacters(x2, y2)) {
         return false;
