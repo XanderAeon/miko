@@ -1587,9 +1587,9 @@ Window_MenuCommand.prototype.makeCommandList = function() {
     this.addMainCommands();
     this.addFormationCommand();
     this.addOriginalCommands();
-    this.addOptionsCommand();
+    //this.addOptionsCommand();
     this.addSaveCommand();
-    this.addGameEndCommand();
+    //this.addGameEndCommand();
 };
 
 Window_MenuCommand.prototype.addMainCommands = function() {
