@@ -2602,15 +2602,24 @@ Window_Status.prototype.drawParameters = function(x, y) {
     }*/
     paramId = 0+2;
     y2 = y + lineHeight * 0;
+    this.changeTextColor(this.systemColor());
     this.drawText(TextManager.param(paramId), x, y2, 160);
+    this.resetTextColor();
+    this.drawText(this._actor.param(paramId), x + 160, y2, 60, 'right');
 
     paramId = 1+2;
     y2 = y + lineHeight * 1;
+    this.changeTextColor(this.systemColor());
     this.drawText(TextManager.param(paramId), x, y2, 160);
+    this.resetTextColor();
+    this.drawText(this._actor.param(paramId), x + 160, y2, 60, 'right');
 
     paramId = 4+2;
     y2 = y + lineHeight * 2;
+    this.changeTextColor(this.systemColor());
     this.drawText(TextManager.param(paramId), x, y2, 160);
+    this.resetTextColor();
+    this.drawText(this._actor.param(paramId), x + 160, y2, 60, 'right');
 
     /*paramId = i+2;
     y2 = y + lineHeight * i;
