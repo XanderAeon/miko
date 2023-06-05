@@ -1,0 +1,45 @@
+"..."
+"Do my eyes deceive me...?"
+
+"A fine work of art, don't you think?"
+
+"Oh, absolutely."
+"The statue is nice, too."
+
+"...Hey, now."
+
+"I had heard that my exploits had brought me fame over the time of my sleep, but..."
+"Why, pray tell, do you use the image of one who is now your enemy instead of the one that was on your side?"
+
+"Despite how it may seem, I have the utmost respect for your ability, and very much admire it when it is used in more honest ways."
+"To answer your question, the shrine maiden from the mountains suggested that a statue be erected in your honor."
+"I believe she wanted to foster a sort of companionship between all three of our faiths; I don't suppose you've heard the rumors of her followers dwindling as of late."
+"However, she specifically requested this design."
+
+"Why, how kind. I'll have to pay her a visit as thanks."
+
+"Her plan proceeds smoothly, then."
+
+"Indeed."
+"Would you kindly help me with it? Your physical enhancement magic would be nice to have."
+
+"...Hm? Help you with what?"
+
+"Why, taking my statue to Senkai, of course."
+"Don't you think it would make a nice centerpiece, instead of being on the outskirts of a drab temple?"
+
+"..."
+
+[battle]
+
+[strike]
+[strike]
+
+"...I don't even know what to say."
+
+"A preacher, gone speechless?"
+"I never thought I'd see the day!"
+
+[win]
+
+""

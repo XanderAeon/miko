@@ -1,0 +1,17 @@
+"What are you doing?"
+"Follow the others and fight."
+
+"Sorry..."
+"I got a really bad cut on the way here."
+"I can still fight, it just hurts to move a bit."
+"A little pain is nothing though, right?"
+
+[Hold this area. (normal mode)]
+>"Really?"
+>"Thank you, prince..."
+[Join the others. (pain mode)]
+>"Of course..."
+>"I'll do my best!"
+>Pain mode has been enabled.
+
+"Don't worry, I'll keep our route home safe."

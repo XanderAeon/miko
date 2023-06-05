@@ -1,0 +1,147 @@
+Prince Shoutoku would be venerated throughout history as a man who had reached great enlightenment, a great and noble hero who was able to bring Buddhism to the great Japan.
+
+"
+
+Good morning, class.
+Normally, I would like to jump directly into our studies, but...
+I'm actually very impressed with all of you! There's a few days before the end of the year, and we've already finished all of our material.
+So, today, we'll be engaging in a topic of my personal interest.
+Still in the realm of history, of course, but something I hope you will find fascinating alongside me.
+Here, let me show you something.
+[old ten grand bill]
+This is a fairly old ten-thousand-yen bill. Can anyone tell me who is pictured on the front?
+[raise hand]
+>Oh, that's a lot of hands...
+>Hm... go ahead, Kochiya-san.
+>[text entry]
+>[correct]
+>>"Oh, well done!"
+>[incorrect]
+>>"Ah, I'm sorry, that's not it."
+>>"Anyone else want to try?"
+>[the new 10k yen guy]
+>>"Oh, i'm sorry, it must be pretty hard to see from back there."
+>>"No, that's who's on the present version of this bill."
+>>"Does anyone else want to try?"
+[do not]
+>Let's see...
+>Hm... go ahead, Yamake-san.
+>"Is it Prince Shoutoku?"
+
+Yes, that's it!
+He will be our topic of discussion for today.
+This isn't for a grade, so don't stress yourselves to remember everything.
+You don't have to participate, but if you do...
+Well, maybe this bill here can be turned into snacks for the whole class.
+...I see you've all started to look a bit more in my direction.
+Let's get on with the lesson.
+
+Long, long ago, at the dawn of the Asuka era, Japan was splintered.
+Splintered people, scattered across the native lands.
+Splintered cultures, only beginning upon great works of art and philosophy.
+Splintered faiths, as Buddhism and Taoism both grew to be taught by the blade instead of merely by words.
+One very, very unique man took up the stage of such an era and took it upon himself to piece together the fragmented scene.
+ 
+
+
+"
+
+[battle with the crowd]
+>speak, +10 tp
+>laud,  tp
+seal violent skills
+
+"
+
+
+[speak]
+>"Men."
+>"We are on the precipice of a great victory."
+>"Under cover of night, we will make the decicive strike."
+>"We will be swift. We will be powerful."
+>"The sun will rise to the sight of our conquest."
+
+[speak]
+>"We will not delight in the bloodshed, but we will not shy away from doing what must be done."
+>"Temper your pride, and temper your fear."
+>"Of those of you that have been selected for this battle, I expect the best."
+
+[speak]
+>"Your worries, your hopes, everything you want from this battle..."
+>"Trust that I have heard them all."
+>"Trust that our path to success takes everything into account."
+
+[laud]
+>"For the future of Japan!"
+>"For the true faith!"
+>"Follow me up onto this mountain, and vanguard this cause!"
+
+
+"
+
+
+
+[people rush to the right]
+[leave the stage]
+
+"Oboro. Setsunaga."
+
+"..."
+"Sir."
+
+"Yeah, sure."
+"Rejoice, for you two will be joining me."
+"I will lead us through a stealth operation that will allow us to pick off key enemies that may cause the main group trouble."
+
+"..."
+"Understood."
+
+"Let us be off, then."
+
+[to the right]
+
+
+"
+
+
+Early in his life, Prince Shoutoku led a great conflict of faiths, culminating in the battle of Shigisan, the mountain Shigi.
+For a person I've just said is sort of a hero, that sounds rather violent, doesn't it?
+Well, that's just the way things tended to be back then. Ultimately, many believe it was the better choice in the end, as it was a key factor in the unification of Japan in this era.
+Like pulling off a bandaid, maybe?
+Would anyone like to guess which faith the prince sided with?
+
+[raise hand]
+>Oh, Kochiya-san.
+>What do you think?
+>[Buddhism]
+>>"Correct!"
+>>"Prince Shoutoku was the driving force behind the spread of Buddhism throughout Japan."
+>>"He is even said to have met with legendary Buddhist figures from beyond the country."
+>>"Of course, this is from a very long past era. Specific records are few and far between, so we don't know for sure."
+>[Taoism]
+>>"Close! Taoism is the faith the prince was in conflict with."
+>>"He was a Buddhist, through and through."
+>>"So stalwart was his faith that he is enshrined even now in certain temples."
+>>"If you get a chance, find and make a visit to one! Maybe I could even give extra credit if you wrote about the experience, haha."
+>[Shinto]
+>>"A good guess!"
+>>"It's said that the prince paid service to and respected the Shinto faith, but it was not what he is known for."
+>>"Prince Shoutoku spearheaded the spread of Buddhism throughout Japan."
+>[Christianity]
+>>"Um... no. Christianity wasn't introduced to Japan until over a millenia later."
+>>"Have you been paying attention to the rest of the class properly?"
+>>"There are people who have likened Prince Shoutoku to Jesus Christ in the context of Buddhism in his kindness and spearheading of faith, but I don't think there are that many other similarities."
+>>"Oh yes, the correct answer was Buddhism."
+[do not, or got it correct last time]
+>"Higashikata-san."
+>"It was Taoism, wasn't it?"
+>"Close! Taoism is the faith the prince was in conflict with."
+>"He was a Buddhist, through and through."
+>"So stalwart was his faith that he is enshrined even now in certain temples."
+>"If you get a chance, maka a visit to one! Maybe I could even give extra credit if you wrote about the experience, haha."
+
+Regardless, yes, Prince Shoutoku ran an influential campaign representing Buddhism against Taoism.
+The battle of Shigisan ended in a symbolic victory that empowered Buddhism to sweep across the whole country.
+
+
+"
