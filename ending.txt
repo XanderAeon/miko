@@ -42,4 +42,5 @@
 
 [win]
 
-""
+"Ah ha ha ha ha!"
+

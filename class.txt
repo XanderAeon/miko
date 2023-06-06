@@ -99,6 +99,8 @@ seal violent skills
 "Let us be off, then."
 
 [to the right]
+[up the mountain]
+[on the bridge]
 
 
 "
@@ -142,6 +144,57 @@ Would anyone like to guess which faith the prince sided with?
 
 Regardless, yes, Prince Shoutoku ran an influential campaign representing Buddhism against Taoism.
 The battle of Shigisan ended in a symbolic victory that empowered Buddhism to sweep across the whole country.
+
+
+"
+
+
+\"Covetousness and rapacity must be expelled from the hearts of officers, and they must adjudicate with just discrimination in all suits that come before them. If the suit is won through bribery, then the poor man can obtain no justice but only the rich.\"
+That is one of the "laws" Prince Shoutoku once declared in his rule.
+Beyond the flowery language, at its core I take it to mean that he was strictly against the notion of government corruption. It is nothing but fitting for a buddhist to be so staunch in opposition to worldly weaknesses, and it's an issue that still persists to this day.
+Speaking like this out loud would put one's own actions under great attention, so you've got to be quite confident in that you'll never go back on it. I very much admire Prince Shoutoku's ability to do so.
+However, this isn't to say all of his proclemations were agreeable.
+There is much wisdom to be found, but I feel that some have aged poorly.
+For example,
+"To the commands of the Emporer, men must be duly obedient. The prince must be looked upon as the heaven and his subjects as the earth. If the earth were to cover the heaven the effect would be distraction; hence the prince must command and the subject obey; superiors must act and inferiors yield."
+...Ha ha, something pretty ballsy for the prince to be saying.
+I understand the sentiment behind this, that those acting in the best spirit and mind should be respected and not undermined, but you can see how it comes across as self-absorbed propaganda too, right?
+That sort of advice could become truly wicked, depending on the era and the leader.
+To continue our last topic, does anyone know how the prince formalized his stance on religion?
+
+[raise hand]
+>Kochiya-san, go ahead.
+>[To respect all people's choice of faith]
+>>"Ah, well..."
+>>"Buddhism is the highest religion in the universe, and all people in all generations must pay becoming reverence to its doctrines. Do not harshly censure men's wickedness but teach them faithfully until they yield obedience. Unless men rely upon Buddhism there is no way to convert them from the wrong to the right."
+>>"He certainly suggested to respect all people regardless of faith, but the goal in that respect would be to \"show them the truth\", as it were."
+>>"I feel like that attitude would have given him some trouble, in the modern day."
+>[That Buddhism, Tao, and Shinto could persist in harmony]
+>>"Ah, well..."
+>>"Here, let me use the quote I had for this."
+>>"Buddhism is the highest religion in the universe, and all people in all generations must pay becoming reverence to its doctrines. Do not harshly censure men's wickedness but teach them faithfully until they yield obedience. Unless men rely upon Buddhism there is no way to convert them from the wrong to the right."
+>>"Ultimately, I think that he only felt others were misguided, not evil or wrong."
+>>"At the same time, he wasn't about to accept that everyone would remain unenlightened to Buddhism."
+>[To teach all men the truth of Buddhism]
+>>"Buddhism is the highest religion in the universe, and all people in all generations must pay becoming reverence to its doctrines. Do not harshly censure men's wickedness but teach them faithfully until they yield obedience. Unless men rely upon Buddhism there is no way to convert them from the wrong to the right."
+>>"Yes, you're correct. Well done."
+>>"He would dedicate his entire life to this work and his rule, ultimately being immortalized for it."
+>>"There's more than that ten-thousand-yen note with his mark, for sure."
+>[To bring crusade upon those who were not Buddhist]
+>>"...Ah, I may have given the wrong impression earlier. The prince didn't always choose violence."
+>>"As a quote,"
+>>"Buddhism is the highest religion in the universe, and all people in all generations must pay becoming reverence to its doctrines. Do not harshly censure men's wickedness but teach them faithfully until they yield obedience. Unless men rely upon Buddhism there is no way to convert them from the wrong to the right."
+>>"While I suppose not all of that patince was spared in his early campaign against Taoism, he claimed that one should be willing to bear with anyone and teach them the way of the Buddha properly."
+[do not, or got it correct last time]
+>>"The floor is yours, Jitama-san."
+>>"If he also didn't mind Shinto like you said earlier, wouldn't it be that maybe,  um..."
+>>"Buddhism and Shinto could live in harmony."
+>>"Ah, well..."
+>>"Here, let me use the quote I had for this."
+>>"Buddhism is the highest religion in the universe, and all people in all generations must pay becoming reverence to its doctrines. Do not harshly censure men's wickedness but teach them faithfully until they yield obedience. Unless men rely upon Buddhism there is no way to convert them from the wrong to the right."
+>>"Ultimately, I think that he only felt others were misguided, not evil or wrong."
+>>"At the same time, he wasn't about to accept that everyone would remain unenlightened to Buddhism."
+>>""
 
 
 "
