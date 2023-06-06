@@ -3,8 +3,7 @@
 var $plugins =
 [
 {"name":"ANU_LisaJump","status":true,"description":"","parameters":{}},
-{"name":"ANU_Hophop","status":true,"description":"","parameters":{}}
-{"name":"ANU_LisaJump","status":true,"description":"","parameters":{}},
+{"name":"ANU_Hophop","status":true,"description":"","parameters":{}},
 {"name":"Community_Basic","status":true,"description":"Plugin used to set basic parameters.","parameters":{"cacheLimit":"10","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
 {"name":"YEP_AutoPassiveStates","status":true,"description":"v1.17 This plugin allows for some states to function as\npassives for actors, enemies, skills, and equips.","parameters":{"---Basic---":"","Actor Passives":"0","Enemy Passives":"0","Global Passives":"0","---List---":"...Requires RPG Maker MV 1.5.0+...","Actor Passives List":"[]","Enemy Passives List":"[]","Global Passives List":"[]"}},
 {"name":"YEP_BaseTroopEvents","status":true,"description":"v1.01 Enabling this plugin will cause all troops to have\r\nevents occur in every fight.","parameters":{"Base Troop ID":"1"}},
