@@ -2487,6 +2487,7 @@ Graphics._updateCanvas = function() {
     this._canvas.width = this._width;
     this._canvas.height = this._height;
     this._canvas.style.zIndex = 1;
+    this._canvas.style["game-rendering"] = "pixelated";
     this._centerElement(this._canvas);
 };
 
