@@ -105,7 +105,7 @@ Enemy_Bars.prototype.drawBar = function() {
 
 		var enabled = false;
 		var meta = new Array(4);
-		meta[0] = $dataEnemies[enemyId].meta.hpBar
+		meta[0] = true
 		meta[1] = $dataEnemies[enemyId].meta.hpBarSelectionOnly
 		meta[2] = $dataEnemies[enemyId].meta.hpBarTurnASelection
 		meta[3] = $dataEnemies[enemyId].meta.hpBarTurnOnly
