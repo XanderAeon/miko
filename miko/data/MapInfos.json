@@ -4,8 +4,8 @@ null,
 {"id":2,"expanded":false,"name":"class","order":2,"parentId":0,"scrollX":886.909090909091,"scrollY":1313.4545454545455},
 {"id":3,"expanded":false,"name":"barracks","order":3,"parentId":0,"scrollX":1274.6666666666667,"scrollY":808.6666666666666},
 {"id":4,"expanded":true,"name":"mountain","order":4,"parentId":0,"scrollX":2576,"scrollY":1602},
-{"id":5,"expanded":false,"name":"other mountain","order":5,"parentId":4,"scrollX":1568,"scrollY":1760},
-{"id":6,"expanded":false,"name":"final mountain","order":6,"parentId":4,"scrollX":1264,"scrollY":938.6666666666666},
+{"id":5,"expanded":false,"name":"other mountain","order":5,"parentId":4,"scrollX":1264,"scrollY":1591.3333333333333},
+{"id":6,"expanded":false,"name":"final mountain","order":6,"parentId":4,"scrollX":1264,"scrollY":844.6666666666666},
 {"id":7,"expanded":false,"name":"summit","order":7,"parentId":4,"scrollX":886.909090909091,"scrollY":1313.4545454545455},
 {"id":8,"expanded":false,"name":"temple","order":8,"parentId":0,"scrollX":1638,"scrollY":922}
 ]
