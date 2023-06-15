@@ -1,41 +1,37 @@
 
 //this is the dash section
 
-Game_CharacterBase.prototype.realMoveSpeed = function() {
-    return this._moveSpeed;
-};
+
 
 Game_Player.prototype.moveByInput = function() {
     if (!this.isMoving() && this.canMove()) {
-        this.processFall();
         if(this.isDashing()){
             var direction = this.getInputDirection();
-            this.doJumpDash(direction);
+            //this.doJumpDash(direction);
         }
-        else{
-            var direction = this.getInputDirection();
-            if (direction > 0) {
-                $gameTemp.clearDestination();
-            } else if ($gameTemp.isDestinationValid()){
-                var x = $gameTemp.destinationX();
-                var y = $gameTemp.destinationY();
-                direction = this.findDirectionTo(x, y);
-            }
-            if (direction > 0) {
-                this.executeMove(direction);
-            }
+        var direction = this.getInputDirection();
+        if (direction > 0) {
+            $gameTemp.clearDestination();
+        } else if ($gameTemp.isDestinationValid()){
+            var x = $gameTemp.destinationX();
+            var y = $gameTemp.destinationY();
+            direction = this.findDirectionTo(x, y);
+        }
+        if (direction > 0) {
+            this.executeMove(direction);
         }
     }
 };
 
+
 //^ 8 > 6 < 4 V 2
 Game_Player.prototype.doJumpDash = function(direction){
-    if(direction == 6){
+    /*if(direction == 6){
         this.jump(2,0,5);
     }
     if(direction == 4){
         this.jump(-2,0,5)
-    }
+    }*/
     if(direction == 8){
         if($gameMap.regionId($gamePlayer.x,$gamePlayer.y) == 1){ //if youre jumpin onto something
             this.jump(0,-1);
@@ -47,7 +43,7 @@ Game_Player.prototype.doJumpDash = function(direction){
 }
 
 Game_CharacterBase.prototype.jump = function(xPlus, yPlus,jumpPeak) {
-    if (Math.abs(xPlus) > Math.abs(yPlus)) {
+    /*if (Math.abs(xPlus) > Math.abs(yPlus)) {
         if (xPlus !== 0) {
             this.setDirection(xPlus < 0 ? 4 : 6);
         }
@@ -55,7 +51,7 @@ Game_CharacterBase.prototype.jump = function(xPlus, yPlus,jumpPeak) {
         if (yPlus !== 0) {
             this.setDirection(yPlus < 0 ? 8 : 2);
         }
-    }
+    }*/
     this._x += xPlus;
     this._y += yPlus;
     var distance = Math.round(Math.sqrt(xPlus * xPlus + yPlus * yPlus));

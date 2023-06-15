@@ -20,22 +20,40 @@ Game_Player.prototype.update = function(sceneActive) {
 Game_Player.prototype.processFall = function(){
     if(!this.isMoving()){
         var fallDist = 0;
-        for(var _y = $gamePlayer.y+1; _y <= $gameMap.height();_y++){
-            if($gameMap.regionId($gamePlayer.x,_y) == 1)
-                break;
-            fallDist++;
+        if(!this.isDashing()){
+            for(var _y = this.y+1; _y <= $gameMap.height();_y++){
+                if($gameMap.regionId(this.x,_y) == 1)
+                    break;
+                fallDist++;
+            }
+            if(fallDist > 0){
+                this.performFall(fallDist);
+            }
         }
-        if(fallDist > 0){
-            this.performFall(fallDist);
+        else{
+            var direction;
+            if(this.direction() == 4) //left
+                direction = -1;
+            if(this.direction() == 6) //right
+                direction = 1;
+            for(var _y = this.y+1; _y <= $gameMap.height();_y++){
+                if($gameMap.regionId(this.x+direction,_y) == 1)
+                    break;
+                fallDist++;
+            }
+            if(fallDist > 0){
+                this.performFall(fallDist,direction);
+            }
         }
-        if($gamePlayer.y == $gameMap.height()){
+       
+        if(this.y == $gameMap.height()){
             SceneManager.goto(Scene_Gameover);
         }
     }
 }
 
-Game_Player.prototype.performFall = function(dist){
-    this.jump(0,dist)
+Game_Player.prototype.performFall = function(dist,dir = 0){
+    this.jump(dir,dist)
 }
 
 Game_Player.prototype.canPass = function(x, y, d) {
@@ -73,8 +91,13 @@ Game_Player.prototype.executeMove = function(direction) {
             if(direction == 2){ //down
                 this.jump(0,1)
             }
-            if(direction == 8){ //down
-                this.jump(0,-1)
+            if(direction == 8){ //up
+                if($gameMap.regionId($gamePlayer.x,$gamePlayer.y) == 1){ //if youre jumpin onto something
+                    this.jump(0,-1);
+                }
+                else{
+                    this.jump(0,-1,3)
+                }
             }
         }
         return;
