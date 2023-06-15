@@ -20,30 +20,13 @@ Game_Player.prototype.update = function(sceneActive) {
 Game_Player.prototype.processFall = function(){
     if(!this.isMoving()){
         var fallDist = 0;
-        if(!this.isDashing()){
-            for(var _y = this.y+1; _y <= $gameMap.height();_y++){
-                if($gameMap.regionId(this.x,_y) == 1)
-                    break;
-                fallDist++;
-            }
-            if(fallDist > 0){
-                this.performFall(fallDist);
-            }
+        for(var _y = this.y+1; _y <= $gameMap.height();_y++){
+            if($gameMap.regionId(this.x,_y) == 1)
+                break;
+            fallDist++;
         }
-        else{
-            var direction;
-            if(this.direction() == 4) //left
-                direction = -1;
-            if(this.direction() == 6) //right
-                direction = 1;
-            for(var _y = this.y+1; _y <= $gameMap.height();_y++){
-                if($gameMap.regionId(this.x+direction,_y) == 1)
-                    break;
-                fallDist++;
-            }
-            if(fallDist > 0){
-                this.performFall(fallDist,direction);
-            }
+        if(fallDist > 0){
+            this.performFall(fallDist);
         }
        
         if(this.y == $gameMap.height()){
